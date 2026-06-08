@@ -1,0 +1,16 @@
+{
+  "name": "weve-draft",
+  "version": "1.0.0",
+  "description": "A serverless civilization drafter for team play (1v1 – 4v4).",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/app.jsx",
+  "scripts": {
+    "start": "serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
