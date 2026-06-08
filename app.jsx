@@ -203,7 +203,7 @@ function ResultView({ result, perTeam }) {
             </div>
             {tm.map((ids, pi) => (
               <div className="player" key={pi}>
-                <p className="player-name">Player {ti * perTeam + pi + 1}</p>
+                <p className="player-name">Player {ti + (pi * 2) + 1}</p>
                 <div className="chips">
                   {ids.map((id, ci) => (
                     <CivChip key={ci} civ={byId[id]} showTier={result.mode === "rating"} />

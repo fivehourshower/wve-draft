@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "src/app.jsx",
   "scripts": {
-    "start": "serve src",
+    "start": "serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
