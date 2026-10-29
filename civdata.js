@@ -35,9 +35,9 @@ window.CIVS = [
     {
         "id": 4,
         "name": "Brunei",
-        "tier": "S",
-        "rating": 4.76,
-        "norm": 4.51,
+        "tier": "D",
+        "rating": 1.97,
+        "norm": 1.82,
         "img": "https://hellblazer-tv.github.io/img/brunei.png"
     },
     {
@@ -427,9 +427,9 @@ window.CIVS = [
     {
         "id": 53,
         "name": "Tonga",
-        "tier": "B",
-        "rating": 3.27,
-        "norm": 3.04,
+        "tier": "A",
+        "rating": 3.47,
+        "norm": 3.26,
         "img": "https://hellblazer-tv.github.io/img/tonga.png"
     },
     {
@@ -846,6 +846,30 @@ window.CIVS = [
         "tier": "C",
         "rating": 2.68,
         "norm": 2.49,
-        "img": "https://cdn.countryflags.com/thumbs/california/flag-3d-round-500.png"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_California.svg?width=128"
+    },
+    {
+        "id": 106,
+        "name": "People's Republic of China",
+        "tier": "D",
+        "rating": 1.06,
+        "norm": 1,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Emblem_of_the_People%27s_Republic_of_China_(2).svg?width=128"
+    },
+    {
+        "id": 107,
+        "name": "Quebec",
+        "tier": "A",
+        "rating": 3.48,
+        "norm": 3.27,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Quebec.svg?width=128"
+    },
+    {
+        "id": 108,
+        "name": "Anglican England",
+        "tier": "B",
+        "rating": 3.46,
+        "norm": 3.25,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_England.svg?width=128"
     }
 ];
