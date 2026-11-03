@@ -29,6 +29,29 @@ function randomRating() {
   return CIVS[Math.floor(Math.random() * CIVS.length)].rating;
 }
 
+// re-randomise, guaranteeing a different value than the current one
+function rerollRating(current) {
+  const options = [...new Set(CIVS.map((c) => Math.round(c.rating * 100) / 100))].filter((r) => r !== current);
+  return options.length ? options[Math.floor(Math.random() * options.length)] : current;
+}
+function rerollTier(current) {
+  const options = TIERS.filter((t) => t !== current);
+  return options[Math.floor(Math.random() * options.length)];
+}
+
+function DiceButton({ onClick, label }) {
+  return (
+    <button className="dice-btn" onClick={onClick} title={label} aria-label={label}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="3" />
+        <circle cx="8" cy="8" r="1.2" fill="currentColor" /><circle cx="16" cy="8" r="1.2" fill="currentColor" />
+        <circle cx="12" cy="12" r="1.2" fill="currentColor" />
+        <circle cx="8" cy="16" r="1.2" fill="currentColor" /><circle cx="16" cy="16" r="1.2" fill="currentColor" />
+      </svg>
+    </button>
+  );
+}
+
 // how many UNIQUE civs a draft requires.
 // mirrored: only one team's worth is drawn, then copied to the other side.
 function uniqueNeeded(perTeam, picks, mirrored) {
@@ -370,19 +393,23 @@ function App() {
                       onChange={(e) => setAvg(parseFloat(e.target.value))} />
                     <div className="scale-ticks"><span>{RATING_MIN.toFixed(2)}</span><span>{RATING_MAX.toFixed(2)}</span></div>
                   </div>
+                  <DiceButton label="Random rating" onClick={() => setAvg((a) => rerollRating(a))} />
                 </div>
                 <span className="hint">Picks are drawn from the {Math.min(CIVS.length, uniqueNeeded(perTeam, picks, mirrored) + RATING_MARGIN)} civs closest to this rating.</span>
               </div>
             ) : (
               <div className="field">
                 <span className="label">Tier</span>
-                <div className="select">
-                  <select value={tier} onChange={(e) => setTier(e.target.value)}>
-                    {TIERS.map((t) => {
-                      const count = CIVS.filter((c) => c.tier === t).length;
-                      return <option key={t} value={t}>Tier {t} — {count} civilizations</option>;
-                    })}
-                  </select>
+                <div className="input-row">
+                  <div className="select">
+                    <select value={tier} onChange={(e) => setTier(e.target.value)}>
+                      {TIERS.map((t) => {
+                        const count = CIVS.filter((c) => c.tier === t).length;
+                        return <option key={t} value={t}>Tier {t} — {count} civilizations</option>;
+                      })}
+                    </select>
+                  </div>
+                  <DiceButton label="Random tier" onClick={() => setTier((t) => rerollTier(t))} />
                 </div>
                 <span className="hint">Randomised each session — not remembered.</span>
               </div>

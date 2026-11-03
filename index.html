@@ -101,6 +101,13 @@
   select{appearance:none;font-family:'Spectral',serif;font-size:16px;color:var(--ink);background:rgba(255,255,255,0.55);border:1px solid var(--line-strong);border-radius:3px;padding:10px 42px 10px 16px;cursor:pointer;min-width:230px;}
   .select::after{content:"";position:absolute;right:15px;top:50%;width:8px;height:8px;border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);transform:translateY(-65%) rotate(45deg);pointer-events:none;}
 
+  /* reroll a single input */
+  .input-row{display:flex;align-items:center;gap:10px;}
+  .dice-btn{appearance:none;flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.55);border:1px solid var(--line-strong);border-radius:3px;color:var(--burgundy);cursor:pointer;transition:background .15s,border-color .15s;}
+  .dice-btn:hover{background:rgba(169,128,47,0.14);border-color:var(--gold);}
+  .dice-btn:active{transform:translateY(1px);}
+  .dice-btn svg{width:20px;height:20px;}
+
   /* actions */
   .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;padding-top:22px;border-top:1px solid var(--line);}
   .btn{appearance:none;font-family:'Cinzel',serif;font-weight:600;font-size:14px;letter-spacing:0.08em;text-transform:uppercase;border-radius:3px;padding:13px 26px;cursor:pointer;transition:transform .08s,box-shadow .15s,background .15s;display:inline-flex;align-items:center;gap:9px;border:1px solid transparent;}

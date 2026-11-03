@@ -115,7 +115,7 @@ window.CIVS = [
     {
         "id": 14,
         "name": "China",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.17,
         "norm": 3.93,
         "img": "https://hellblazer-tv.github.io/img/china.png"
@@ -123,7 +123,7 @@ window.CIVS = [
     {
         "id": 15,
         "name": "America",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.17,
         "norm": 3.91,
         "img": "https://hellblazer-tv.github.io/img/america.png"
@@ -131,7 +131,7 @@ window.CIVS = [
     {
         "id": 16,
         "name": "Carthage",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.17,
         "norm": 3.91,
         "img": "https://hellblazer-tv.github.io/img/carthage.png"
@@ -139,7 +139,7 @@ window.CIVS = [
     {
         "id": 17,
         "name": "Macedonia",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.13,
         "norm": 3.87,
         "img": "https://hellblazer-tv.github.io/img/macedonian.png"
@@ -147,7 +147,7 @@ window.CIVS = [
     {
         "id": 18,
         "name": "Netherlands",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.13,
         "norm": 3.85,
         "img": "https://hellblazer-tv.github.io/img/netherlands.png"
@@ -155,7 +155,7 @@ window.CIVS = [
     {
         "id": 19,
         "name": "Papal States",
-        "tier": "A",
+        "tier": "S",
         "rating": 4.07,
         "norm": 3.85,
         "img": "https://hellblazer-tv.github.io/img/vatican.png"
@@ -163,7 +163,7 @@ window.CIVS = [
     {
         "id": 20,
         "name": "Burma",
-        "tier": "A",
+        "tier": "S",
         "rating": 4,
         "norm": 3.77,
         "img": "https://hellblazer-tv.github.io/img/burma.png"
@@ -331,7 +331,7 @@ window.CIVS = [
     {
         "id": 41,
         "name": "Zimbabwe",
-        "tier": "A",
+        "tier": "B",
         "rating": 3.5,
         "norm": 3.26,
         "img": "https://hellblazer-tv.github.io/img/zimbabwe.png"
@@ -428,8 +428,8 @@ window.CIVS = [
         "id": 53,
         "name": "Tonga",
         "tier": "A",
-        "rating": 3.47,
-        "norm": 3.26,
+        "rating": 3.5,
+        "norm": 3.27,
         "img": "https://hellblazer-tv.github.io/img/tonga.png"
     },
     {
@@ -499,7 +499,7 @@ window.CIVS = [
     {
         "id": 62,
         "name": "Italy",
-        "tier": "B",
+        "tier": "C",
         "rating": 3.06,
         "norm": 2.85,
         "img": "https://hellblazer-tv.github.io/img/italy.png"
@@ -507,7 +507,7 @@ window.CIVS = [
     {
         "id": 63,
         "name": "Sioux",
-        "tier": "B",
+        "tier": "C",
         "rating": 2.93,
         "norm": 2.75,
         "img": "https://hellblazer-tv.github.io/img/sioux.png"
@@ -515,7 +515,7 @@ window.CIVS = [
     {
         "id": 64,
         "name": "Songhai",
-        "tier": "B",
+        "tier": "C",
         "rating": 2.94,
         "norm": 2.73,
         "img": "https://hellblazer-tv.github.io/img/songhai.png"
@@ -523,7 +523,7 @@ window.CIVS = [
     {
         "id": 65,
         "name": "Romania",
-        "tier": "B",
+        "tier": "C",
         "rating": 2.94,
         "norm": 2.73,
         "img": "https://hellblazer-tv.github.io/img/romania.png"
@@ -531,7 +531,7 @@ window.CIVS = [
     {
         "id": 66,
         "name": "Ireland",
-        "tier": "B",
+        "tier": "C",
         "rating": 2.89,
         "norm": 2.69,
         "img": "https://hellblazer-tv.github.io/img/ireland.png"
@@ -539,7 +539,7 @@ window.CIVS = [
     {
         "id": 67,
         "name": "Hittites",
-        "tier": "B",
+        "tier": "C",
         "rating": 2.78,
         "norm": 2.59,
         "img": "https://hellblazer-tv.github.io/img/hittites.png"
@@ -547,9 +547,9 @@ window.CIVS = [
     {
         "id": 68,
         "name": "Finland",
-        "tier": "B",
-        "rating": 2.77,
-        "norm": 2.58,
+        "tier": "A",
+        "rating": 3.91,
+        "norm": 3.7,
         "img": "https://hellblazer-tv.github.io/img/finland.png"
     },
     {
@@ -675,7 +675,7 @@ window.CIVS = [
     {
         "id": 84,
         "name": "Austria",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.28,
         "norm": 2.12,
         "img": "https://hellblazer-tv.github.io/img/austria.png"
@@ -683,7 +683,7 @@ window.CIVS = [
     {
         "id": 85,
         "name": "Kongo",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.19,
         "norm": 2.02,
         "img": "https://hellblazer-tv.github.io/img/kongo.png"
@@ -691,7 +691,7 @@ window.CIVS = [
     {
         "id": 86,
         "name": "Phoenicia",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.13,
         "norm": 1.99,
         "img": "https://hellblazer-tv.github.io/img/phoenician.png"
@@ -699,7 +699,7 @@ window.CIVS = [
     {
         "id": 87,
         "name": "Morocco",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.13,
         "norm": 1.97,
         "img": "https://hellblazer-tv.github.io/img/morocco.png"
@@ -707,7 +707,7 @@ window.CIVS = [
     {
         "id": 88,
         "name": "Portugal",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.07,
         "norm": 1.95,
         "img": "https://hellblazer-tv.github.io/img/portugal.png"
@@ -715,7 +715,7 @@ window.CIVS = [
     {
         "id": 89,
         "name": "Jerusalem",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.07,
         "norm": 1.95,
         "img": "https://hellblazer-tv.github.io/img/jerusalem.png"
@@ -723,7 +723,7 @@ window.CIVS = [
     {
         "id": 90,
         "name": "Boers",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.06,
         "norm": 1.94,
         "img": "https://hellblazer-tv.github.io/img/boers.png"
@@ -731,7 +731,7 @@ window.CIVS = [
     {
         "id": 91,
         "name": "Assyria",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.06,
         "norm": 1.94,
         "img": "https://hellblazer-tv.github.io/img/assyria.png"
@@ -739,7 +739,7 @@ window.CIVS = [
     {
         "id": 92,
         "name": "Scotland",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.06,
         "norm": 1.9,
         "img": "https://hellblazer-tv.github.io/img/scotland.png"
@@ -747,7 +747,7 @@ window.CIVS = [
     {
         "id": 93,
         "name": "Tibet",
-        "tier": "C",
+        "tier": "D",
         "rating": 2,
         "norm": 1.9,
         "img": "https://hellblazer-tv.github.io/img/tibet.png"
@@ -755,7 +755,7 @@ window.CIVS = [
     {
         "id": 94,
         "name": "Sweden",
-        "tier": "C",
+        "tier": "D",
         "rating": 2.06,
         "norm": 1.88,
         "img": "https://hellblazer-tv.github.io/img/sweden.png"
@@ -851,17 +851,17 @@ window.CIVS = [
     {
         "id": 106,
         "name": "People's Republic of China",
-        "tier": "D",
-        "rating": 1.06,
-        "norm": 1,
+        "tier": "B",
+        "rating": 3.08,
+        "norm": 2.87,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/National_Emblem_of_the_People%27s_Republic_of_China_(2).svg?width=128"
     },
     {
         "id": 107,
         "name": "Quebec",
-        "tier": "A",
-        "rating": 3.48,
-        "norm": 3.27,
+        "tier": "S",
+        "rating": 3.96,
+        "norm": 3.74,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Quebec.svg?width=128"
     },
     {
@@ -871,5 +871,13 @@ window.CIVS = [
         "rating": 3.46,
         "norm": 3.25,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_England.svg?width=128"
+    },
+    {
+        "id": 109,
+        "name": "Han",
+        "tier": "S",
+        "rating": 4.85,
+        "norm": 4.56,
+        "img": "img/han.svg"
     }
 ];
