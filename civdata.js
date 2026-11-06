@@ -879,5 +879,13 @@ window.CIVS = [
         "rating": 4.85,
         "norm": 4.56,
         "img": "img/han.svg"
+    },
+    {
+        "id": 110,
+        "name": "Croatia",
+        "tier": "A",
+        "rating": 3.85,
+        "norm": 3.63,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Croatian_chequy.svg?width=128"
     }
 ];
