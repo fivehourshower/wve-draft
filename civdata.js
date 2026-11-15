@@ -554,11 +554,11 @@ window.CIVS = [
     },
     {
         "id": 69,
-        "name": "Japan",
+        "name": "Tokugawa Shogunate",
         "tier": "C",
         "rating": 2.67,
         "norm": 2.47,
-        "img": "https://hellblazer-tv.github.io/img/japan.png"
+        "img": "img/tokugawa.png"
     },
     {
         "id": 70,
@@ -887,5 +887,21 @@ window.CIVS = [
         "rating": 3.85,
         "norm": 3.63,
         "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Croatian_chequy.svg?width=128"
+    },
+    {
+        "id": 111,
+        "name": "Iran",
+        "tier": "A",
+        "rating": 3.72,
+        "norm": 3.5,
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iran.svg?width=128"
+    },
+    {
+        "id": 112,
+        "name": "Japan",
+        "tier": "B",
+        "rating": 3.3,
+        "norm": 3.1,
+        "img": "https://hellblazer-tv.github.io/img/japan.png"
     }
 ];
