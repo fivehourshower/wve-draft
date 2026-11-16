@@ -171,7 +171,7 @@ window.CIVS = [
     {
         "id": 21,
         "name": "Ethiopia",
-        "tier": "S",
+        "tier": "A",
         "rating": 3.94,
         "norm": 3.72,
         "img": "https://hellblazer-tv.github.io/img/ethiopia.png"
@@ -179,7 +179,7 @@ window.CIVS = [
     {
         "id": 22,
         "name": "Germany",
-        "tier": "A",
+        "tier": "S",
         "rating": 3.89,
         "norm": 3.67,
         "img": "https://hellblazer-tv.github.io/img/germany.png"
@@ -187,7 +187,7 @@ window.CIVS = [
     {
         "id": 23,
         "name": "Maya",
-        "tier": "A",
+        "tier": "S",
         "rating": 3.8,
         "norm": 3.59,
         "img": "https://hellblazer-tv.github.io/img/maya.png"
