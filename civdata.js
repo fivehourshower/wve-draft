@@ -180,24 +180,24 @@ window.CIVS = [
         "id": 22,
         "name": "Germany",
         "tier": "S",
-        "rating": 3.89,
-        "norm": 3.67,
+        "rating": 3.97,
+        "norm": 3.75,
         "img": "https://hellblazer-tv.github.io/img/germany.png"
     },
     {
         "id": 23,
         "name": "Maya",
-        "tier": "S",
-        "rating": 3.8,
-        "norm": 3.59,
+        "tier": "A",
+        "rating": 3.95,
+        "norm": 3.74,
         "img": "https://hellblazer-tv.github.io/img/maya.png"
     },
     {
         "id": 24,
         "name": "Belgium",
         "tier": "A",
-        "rating": 3.83,
-        "norm": 3.58,
+        "rating": 3.94,
+        "norm": 3.73,
         "img": "https://hellblazer-tv.github.io/img/belgium.png"
     },
     {
