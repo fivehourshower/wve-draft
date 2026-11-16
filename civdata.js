@@ -171,7 +171,7 @@ window.CIVS = [
     {
         "id": 21,
         "name": "Ethiopia",
-        "tier": "A",
+        "tier": "S",
         "rating": 3.94,
         "norm": 3.72,
         "img": "https://hellblazer-tv.github.io/img/ethiopia.png"
