@@ -164,8 +164,8 @@ window.CIVS = [
         "id": 20,
         "name": "Burma",
         "tier": "S",
-        "rating": 4,
-        "norm": 3.77,
+        "rating": 4.55,
+        "norm": 4.29,
         "img": "https://hellblazer-tv.github.io/img/burma.png"
     },
     {
